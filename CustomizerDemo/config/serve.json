@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://yourbusiness551.sharepoint.com",
+      "customActions": {
+        "33fa2819-1f18-40da-be84-b04722ab0ac7": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top":"Header of the page",
+            "Bottom":"Footer of the page"
+          }
+        }
+      }
+    },
+    "abcDemo": {
+      "pageUrl": "https://yourbusiness551.sharepoint.com",
+      "customActions": {
+        "33fa2819-1f18-40da-be84-b04722ab0ac7": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top":"Header of the page",
+            "Bottom":"Footer of the page"
+          }
+        }
+      }
+    }
+  },
+  "abcDemo": {
+    "pageUrl": "https://yourbusiness551.sharepoint.com",
+    "customActions": {
+      "33fa2819-1f18-40da-be84-b04722ab0ac7": {
+        "location": "ClientSideExtension.ApplicationCustomizer",
+        "properties": {
+          "Top":"Header of the page",
+          "Bottom":"Footer of the page"
+        }
+      }
+    }
+  }
+}
+}

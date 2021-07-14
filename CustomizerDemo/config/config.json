@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "abc-demo-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/abcDemo/AbcDemoApplicationCustomizer.js",
+          "manifest": "./src/extensions/abcDemo/AbcDemoApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AbcDemoApplicationCustomizerStrings": "lib/extensions/abcDemo/loc/{locale}.js"
+  }
+}
